@@ -8,6 +8,10 @@ Go to Settings -> System -> For developers -> Enable developer mode, Enable Devi
 Ensure the said port is allowed in the firewall.
 
 # For attacker's machine
+Install dependency (requests)
+```
+pip install requests
+```
 Use the script with the IP, port, username, password of the target machine
 
 ```
