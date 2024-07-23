@@ -1,6 +1,5 @@
 import requests
 import sys
-import ssl
 import base64
 
 def make_bsod(ip, port, uname, passwd):
