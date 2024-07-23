@@ -13,3 +13,6 @@ Use the script with the IP, port, username, password of the target machine
 ```
 python baas.py <IP> <PORT> <USERNAME> <PASSWORD>
 ```
+
+# Demo
+[Demo video](https://youtu.be/l9325HEatEE?si=HZOXQ1ofK071V4dt)
