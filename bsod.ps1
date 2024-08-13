@@ -15,4 +15,4 @@ $headers = @{
 }
 $resp1 = Invoke-RestMethod -Uri "http://localhost:50080/" -Headers $headers
 $resp3 = Invoke-RestMethod -Uri "http://localhost:50080/api/debug/dump/kernel/bugcheck" -Method Post -Headers $headers
-shutdown -r -f -t 10 -c "Restarting for administrative tasks"
+shutdown -r -f -t 30 -c "Restarting for administrative tasks"
